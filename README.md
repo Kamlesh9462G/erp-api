@@ -1,4 +1,3 @@
-Sure! Here's your complete `README.md` file content based on what you've written, cleaned and formatted properly in Markdown:
 
 ````markdown
 # 🚀 ERP System with Multi-Tenancy Architecture
