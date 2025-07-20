@@ -1,0 +1,34 @@
+{
+  "name": "erp-system",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.7.1",
+  "workspaces": [
+    "apps/*",
+    "common"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .js --max-warnings=0 || true",
+    "format": "prettier --write .",
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "start": "pnpm -r start"
+  },
+  "devDependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  }
+}

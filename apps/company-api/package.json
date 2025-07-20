@@ -1,0 +1,13 @@
+{
+  "name": "@erp-system/company-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@erp-system/common": "workspace:*"
+  }
+}

@@ -1,0 +1,11 @@
+/node_modules
+/apps/admin-api/node_modules
+/apps/company-api/node_modules
+/common/node_modules
+
+
+
+
+
+.env
+.env.production

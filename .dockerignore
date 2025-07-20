@@ -1,0 +1,22 @@
+# Node stuff
+node_modules
+.pnpm-store
+dist
+build
+.nyc_output
+
+# System files
+.DS_Store
+*.log
+
+# Git
+.git
+.gitignore
+
+# Docker files (optional)
+Dockerfile
+docker-compose.yml
+
+# Editor settings
+.vscode
+.idea

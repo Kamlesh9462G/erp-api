@@ -1,0 +1,3 @@
+packages:
+  - 'apps/*' # includes b2b-api, gateway
+  - 'common' # your shared package
