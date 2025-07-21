@@ -102,6 +102,8 @@ Content-Type: application/json
 | `/company`     | POST   | Create new company   |
 
 ### 🏭 Company API (`/api/v1`)
+ 
+http://localhost:80/api/v1
 
 | Endpoint      | Method | Description        |
 | ------------- | ------ | ------------------ |

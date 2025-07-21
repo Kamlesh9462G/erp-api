@@ -6,7 +6,7 @@ const { tokenTypes } = require('@erp-system/common/config/tokens');
 
 /**
  * Generate token
- * @param {ObjectId} user_id
+ * @param {UUID} user_id
  * @param {Moment} expires
  * @param {string} [secret]
  * @returns {string}
