@@ -15,7 +15,7 @@ A complete Dockerized ERP API featuring:
 
 Client → Nginx:80  
 ├─→ `/api/v1/admin`   → admin-api:5077  
-└─→ `/api/v1/company` → company-api:5078  
+└─→ `/api/v1/` → company-api:5078  
 
 ---
 
